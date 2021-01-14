@@ -12,7 +12,7 @@ function main() {
 
   client.helloWorld(request, function (err, response) {
     if (err) console.log("Node Client Error:", err);
-    else console.log("Node Client Message:", response.getMesssage());
+    else console.log("\n\n => Node Client Message:", response.getMessage());
   });
 }
 main();
